@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "The cutest animations available with CSS & JS 🐰",
   "main": "./src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "cute-animations",
     "animations",

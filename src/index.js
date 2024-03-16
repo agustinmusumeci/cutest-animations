@@ -1,5 +1,5 @@
 const values = {
-    animation: "600ms"
+    animation: "700ms"
 }
 
 // Init function
