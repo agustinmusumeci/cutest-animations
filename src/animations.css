@@ -141,12 +141,10 @@
 @keyframes blur {
     from {
         filter: blur(7.5px);
-        transform: scale3d(102.5%, 102.5%, 102.5%);
     }
     to {
         filter: blur(0px);
         opacity: 100%;
-        transform: scale3d(100%, 100%, 100%);
     }
 }
 

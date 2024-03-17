@@ -20,12 +20,12 @@ npm install cutest-animations
 
 - Css stylesheet link.
 ```html
-<link rel="stylesheet" href="/node_modules/cutest-animations/src/animations.css">
+<link rel="stylesheet" href="node_modules/cutest-animations/src/animations.css">
 ```
 
 - JS link.
 ```html
-<script src="/node_modules/cutest-animations/src/index.js"></script>
+<script src="node_modules/cutest-animations/src/index.js"></script>
 ```
 
 
