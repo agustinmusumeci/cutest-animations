@@ -1,5 +1,8 @@
 const values = {
-    animation: "700ms"
+    animation: "600ms",
+    fill_mode: "forwards",
+    timing_function: "ease-in-out",
+    delay : "100ms"
 }
 
 // Init function
@@ -37,15 +40,24 @@ const init = () => {
     // Animate function
     const handleAnimate = (el) => {
         // Get dataset values
-        const dataset = el.dataset.animate;
-        const animation = el.dataset.animateDuration
+        const name = el.dataset.animate;
+        const animation = el.dataset.animateDuration;
+        const timing = el.dataset.animateTiming;
+        const delay = el.dataset.animateDelay;
         
-        if (dataset) {
-            // Animation itself
-            el.classList.add(dataset);
+        if (name) {
+            // Animation name and fillmode (do NOT change)
+            el.style.animationName = name;
+            el.style.animationFillMode = values.fill_mode;
+            
+            // Animation timing function
+            timing ? (el.style.animationTimingFunction = timing) : (el.style.animationTimingFunction = values.timing_function);
 
             // Animation duration
-            animation ? (el.style.animationDuration = `${animation}ms`) : (el.style.animationDuration = values.animation)
+            animation ? (el.style.animationDuration = `${animation}ms`) : (el.style.animationDuration = values.animation);
+
+            // Animation delay
+            delay ? (el.style.animationDelay = `${delay}ms`) : (el.style.animationDelay = values.delay)
         };
     };
 };

@@ -4,7 +4,6 @@
 
 @keyframes fade-in {
     from {
-        opacity: 0;
         filter: blur(1px);
     } to {
         opacity: 100%;
@@ -14,7 +13,6 @@
 
 @keyframes fade-left {
     from {
-        opacity: 0;
         filter: blur(1px);
         transform: translate3d(-10%, 0, 0);
     }
@@ -28,7 +26,6 @@
 
 @keyframes fade-right {
     from {
-        opacity: 0;
         filter: blur(1px);
         transform: translate3d(10%, 0, 0);
     } 
@@ -41,7 +38,6 @@
 
 @keyframes fade-top {
     from {
-        opacity: 0;
         filter: blur(1px);
         transform: translate3d(0, 10%, 0);
     } to {
@@ -53,7 +49,6 @@
 
 @keyframes fade-bottom {
     from {
-        opacity: 0;
         filter: blur(1px);
         transform: translate3d(0, -10%, 0);
     }
@@ -65,9 +60,59 @@
     }
 }
 
+@keyframes fade-top-left {
+    from {
+        filter: blur(1p);
+        transform: translate3d(-10%, 10%, 0);
+    }
+    to {
+        opacity: 100%;
+        filter: blur(0px);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fade-top-right {
+    from {
+        filter: blur(1p);
+        transform: translate3d(10%, 10%, 0);
+    }
+
+    to {
+        opacity: 100%;
+        filter: blur(0px);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fade-bottom-left {
+    from {
+        filter: blur(1p);
+        transform: translate3d(-10%, -10%, 0);
+    }
+
+    to {
+        opacity: 100%;
+        filter: blur(0px);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fade-bottom-right {
+    from {
+        filter: blur(1p);
+        transform: translate3d(10%, -10%, 0);
+    }
+
+    to {
+        opacity: 100%;
+        filter: blur(0px);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
 @keyframes zoom-in {
     from {
-        opacity: 0;
         filter: blur(1px);
         transform: scale3d(90%, 90%, 90%);
     }
@@ -81,7 +126,6 @@
 
 @keyframes zoom-out {
     from {
-        opacity: 0;
         filter: blur(1px);
         transform: scale3d(110%, 110%, 110%);
     }
@@ -94,44 +138,69 @@
     
 }
 
-.fade-in {
-    animation: fade-in;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+@keyframes blur {
+    from {
+        filter: blur(7.5px);
+        transform: scale3d(102.5%, 102.5%, 102.5%);
+    }
+    to {
+        filter: blur(0px);
+        opacity: 100%;
+        transform: scale3d(100%, 100%, 100%);
+    }
 }
 
-.fade-left {
-    animation-name: fade-left;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+@keyframes flip-left {
+    from {
+            opacity: 0%;
+            transform: perspective(1000px) rotate3d(0, 1, 0, 80deg);
+            transform-style: preserve-3d;
+        }
+    
+        to {
+            opacity: 100%;
+            transform: perspective(1000px) rotate3d(1, 1, 1, 0deg);
+            transform-style: preserve-3d;
+        }
 }
 
-.fade-right {
-    animation-name: fade-right;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+@keyframes flip-right {
+    from {
+            opacity: 0%;
+            transform: perspective(1000px) rotate3d(0, 1, 0, -80deg);
+            transform-style: preserve-3d;
+        }
+    
+        to {
+            opacity: 100%;
+            transform: perspective(1000px) rotate3d(1, 1, 1, 0deg);
+            transform-style: preserve-3d;
+        }
 }
 
-.fade-top {
-    animation-name: fade-top;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+@keyframes flip-top {
+    from {
+        opacity: 0%;
+        transform: perspective(1000px) rotate3d(1, 0, 0, 80deg);
+        transform-style: preserve-3d;
+    }
+    to {
+        opacity: 100%;
+        transform: perspective(1000px) rotate3d(1, 1, 1, 0deg);
+        transform-style: preserve-3d;
+    }
 }
 
-.fade-bottom {
-    animation-name: fade-bottom;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-.zoom-in {
-    animation-name: zoom-in;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-.zoom-out {
-    animation: zoom-out;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+@keyframes flip-bottom {
+    from {
+            opacity: 0%;
+            transform: perspective(1000px) rotate3d(1, 0, 0, -80deg);
+            transform-style: preserve-3d;
+        }
+    
+        to {
+            opacity: 100%;
+            transform: perspective(1000px) rotate3d(1, 1, 1, 0deg);
+            transform-style: preserve-3d;
+        }
 }
