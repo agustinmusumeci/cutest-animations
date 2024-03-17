@@ -7,8 +7,10 @@
     "cute-animations",
     "animations",
     "css-animations",
-    "js-animations"
+    "js-animations",
+    "scroll-animations"
   ],
+  "repository": {"url":"https://github.com/agustinmusumeci/cute-animations"},
   "author": "Agustin Musumeci",
   "license": "ISC"
 }
