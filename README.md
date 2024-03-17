@@ -1,4 +1,4 @@
-# cute-animations
+# cutest-animations
 
 Cute Animations is a CSS & JS library for web on scroll/load animations.
 
@@ -13,19 +13,19 @@ All the animations are customizables.
 
 - npm
 ```bash
-npm install cute-animations
+npm install cutest-animations
 ```
 
 > Implementation
 
 - Css stylesheet link.
 ```html
-<link rel="stylesheet" href="/node_modules/cute-animations/src/animations.css">
+<link rel="stylesheet" href="/node_modules/cutest-animations/src/animations.css">
 ```
 
 - JS link.
 ```html
-<script src="/node_modules/cute-animations/src/index.js"></script>
+<script src="/node_modules/cutest-animations/src/index.js"></script>
 ```
 
 
