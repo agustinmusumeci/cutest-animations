@@ -54,81 +54,81 @@ npm install cutest-animations
 
 ## Animations available 🐰
 
-> Fade in.
+* Fade in.
 ```html
     data-animate="fade-in"
 ```
 
-> Blur.
+* Blur.
 ```html
     data-animate="blur"
 ```
 
-> Fade left.
+* Fade left.
 ```html
     data-animate="fade-left"
 ```
 
-> Fade right.
+* Fade right.
 ```html
     data-animate="fade-right"
 ```
-> Fade top.
+* Fade top.
 ```html
     data-animate="fade-top"
 ```
 
-> Fade bottom.
+* Fade bottom.
 ```html
     data-animate="fade-bottom"
 ```
 
-> Fade top right.
+* Fade top right.
 ```html
     data-animate="fade-top-right"
 ```
 
-> Fade top left.
+* Fade top left.
 ```html
     data-animate="fade-top-left"
 ```
 
-> Fade bottom right.
+* Fade bottom right.
 ```html
     data-animate="fade-bottom-right"
 ```
 
-> Fade bottom left.
+* Fade bottom left.
 ```html
     data-animate="fade-bottom-left"
 ```
 
-> Zoom in.
+* Zoom in.
 ```html
     data-animate="zoom-in"
 ```
 
-> Zoom out.
+* Zoom out.
 ```html
     data-animate="zoom-out"
 ```
 
-> Flip left.
+* Flip left.
 ```html
     data-animate="flip-left"
 ```
 
-> Flip right.
+* Flip right.
 ```html
     data-animate="flip-right"
 ```
 
-> Flip top.
+* Flip top.
 ```html
     data-animate="flip-top"
 ```
 
-> Flip bottom.
+* Flip bottom.
 ```html
     data-animate="flip-bottom"
 ```
