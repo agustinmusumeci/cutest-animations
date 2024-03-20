@@ -154,3 +154,8 @@ npm install cutest-animations
         My custom animation
     </div>
 ```
+
+
+## Issues
+
+* cutes-animations still in develop, feel free to contact "agustinmusumeci" to fix any bug.
