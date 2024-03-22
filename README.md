@@ -181,6 +181,6 @@ npm install cutest-animations
 ```
 
 
-## Issues
+## Fixes
 
 * cutes-animations still in early develop. Feel free to contact "agustinmusumeci" to fix any bug.
