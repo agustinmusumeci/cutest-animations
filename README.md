@@ -54,14 +54,14 @@ npm install cutest-animations
 
 ## Animations available 🐰
 
-* Fade in.
-```html
-    data-animate="fade-in"
-```
-
 * Blur.
 ```html
     data-animate="blur"
+```
+
+* Fade in.
+```html
+    data-animate="fade-in"
 ```
 
 * Fade left.
@@ -103,16 +103,6 @@ npm install cutest-animations
     data-animate="fade-bottom-left"
 ```
 
-* Zoom in.
-```html
-    data-animate="zoom-in"
-```
-
-* Zoom out.
-```html
-    data-animate="zoom-out"
-```
-
 * Flip left.
 ```html
     data-animate="flip-left"
@@ -131,6 +121,41 @@ npm install cutest-animations
 * Flip bottom.
 ```html
     data-animate="flip-bottom"
+```
+
+* Jump.
+```html
+    data-animate="jump"
+```
+
+* Pulse
+```html
+    data-animate="flip-right"
+```
+
+* Rotate left.
+```html
+    data-animate="rotate-left"
+```
+
+* Rotate right.
+```html
+    data-animate="rotate-right"
+```
+
+* Squish.
+```html
+    data-animate="squish"
+```
+
+* Zoom in.
+```html
+    data-animate="zoom-in"
+```
+
+* Zoom out.
+```html
+    data-animate="zoom-out"
 ```
 
 
@@ -158,4 +183,4 @@ npm install cutest-animations
 
 ## Issues
 
-* cutes-animations still in develop, feel free to contact "agustinmusumeci" to fix any bug.
+* cutes-animations still in early develop. Feel free to contact "agustinmusumeci" to fix any bug.

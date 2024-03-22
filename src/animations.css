@@ -138,16 +138,6 @@
     
 }
 
-@keyframes blur {
-    from {
-        filter: blur(7.5px);
-    }
-    to {
-        filter: blur(0px);
-        opacity: 100%;
-    }
-}
-
 @keyframes flip-left {
     from {
             opacity: 0%;
@@ -201,4 +191,71 @@
             transform: perspective(1000px) rotate3d(1, 1, 1, 0deg);
             transform-style: preserve-3d;
         }
+}
+
+@keyframes rotate-left {
+    from {
+        opacity: 0%;
+        transform: rotate3d(0, 0, 1, 45deg);
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes rotate-right {
+    from {
+        opacity: 0%;
+        transform: rotate3d(0, 0, 1, -45deg);
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes blur {
+    from {
+        filter: blur(7.5px);
+    }
+
+    to {
+        filter: blur(0px);
+        opacity: 100%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        transform: translate3d(0, -5%, 0);
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        transform: scale3d(105%, 105%, 105%);
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes squish {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        transform: scale3d(110%, 90%, 100%);
+    }
+    100% {
+        opacity: 100%;
+    }
 }
